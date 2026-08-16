@@ -95,7 +95,7 @@ export default function Hero() {
       <div className="px-6 pt-4 sm:px-10">
         <h1
           id="hero-title"
-          className="whitespace-nowrap text-[12.5vw] font-medium uppercase leading-[0.85] tracking-[-0.02em]"
+          className="whitespace-break-spaces text-[12.5vw] font-medium uppercase leading-[0.85] tracking-tighter"
         >
           <WordReveal
             active={ready}
@@ -107,7 +107,7 @@ export default function Hero() {
       </div>
 
       <div className="mt-auto flex flex-col gap-6 px-6 pb-8 sm:flex-row sm:items-end sm:justify-between sm:px-10 sm:pb-10">
-        <p
+        <div
           aria-label="Show Up, Level Up"
           className="text-[2.4rem] font-medium uppercase leading-[0.95] tracking-tight text-white/85"
         >
@@ -118,7 +118,7 @@ export default function Hero() {
             stagger={110}
             duration={900}
           />
-        </p>
+        </div>
         <div className="flex items-end gap-4">
           <CollectionSlider />
           <MembershipCard />

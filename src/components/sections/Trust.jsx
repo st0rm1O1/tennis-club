@@ -58,7 +58,7 @@ function GhostHeading({ slide, sectionRef, index }) {
   return (
     <h2
       id="trust-title"
-      className="pointer-events-none relative z-0 mx-auto mt-12 max-w-[88rem] select-none text-center text-[8.2vw] font-medium uppercase leading-[1.02] tracking-[-0.02em]"
+      className="pointer-events-none relative z-0 mx-auto mt-12 max-w-500 select-none text-center text-[8vw] font-medium uppercase leading-[1.02] tracking-tighter"
     >
       <div
         key={index}

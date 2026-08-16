@@ -40,6 +40,7 @@ export default function MenuOverlay() {
 
   const handleLink = (e, href) => {
     e.preventDefault();
+    unlockScroll();
     close();
     scrollTo(href);
   };

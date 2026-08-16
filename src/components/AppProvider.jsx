@@ -64,6 +64,7 @@ export function AppProvider({ children }) {
     document.documentElement.classList.remove("is-locked");
     document.body.classList.remove("is-locked");
     lenisRef.current?.start();
+    lenisRef.current?.resize();
   }, []);
 
   const scrollTo = useCallback((target) => {
@@ -73,13 +74,15 @@ export function AppProvider({ children }) {
       if (typeof target === "string") {
         const el = document.querySelector(target);
         if (el) {
-          lenis.scrollTo(el, { duration: 1.2 });
+          lenis.resize();
+          lenis.scrollTo(el, { duration: 1.2, force: true });
           return;
         }
         window.location.hash = target;
         return;
       }
-      lenis.scrollTo(target, { duration: 1.2 });
+      lenis.resize();
+      lenis.scrollTo(target, { duration: 1.2, force: true });
     } else if (typeof target === "string") {
       const el = document.querySelector(target);
       el?.scrollIntoView({ behavior: "smooth" });

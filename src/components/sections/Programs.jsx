@@ -41,7 +41,7 @@ export default function Programs() {
                   e.preventDefault();
                   scrollTo(program.href);
                 }}
-                className="flex items-center gap-6 py-7 transition-colors duration-200 focus:bg-white"
+                className="flex items-center gap-6 py-7 transition-colors duration-200 focus:bg-white focus:px-4"
               >
                 <span className="w-10 shrink-0 text-sm font-medium text-ink-soft">
                   {program.index}
