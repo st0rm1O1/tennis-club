@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const BASE_PATH = "/tennis-club";
+const BASE_PATH = "/baseline-tennis-club";
 
 const nextConfig = {
   reactCompiler: true,

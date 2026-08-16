@@ -1,4 +1,4 @@
-const BASE_PATH = "/tennis-club";
+const BASE_PATH = "/baseline-tennis-club";
 
 export const IMAGES = {
   hero: `${BASE_PATH}/images/hero/hero-court.webp`,
