@@ -28,7 +28,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={sectionRef}
-      className="relative isolate flex h-[calc(100svh-1rem)] min-h-[36rem] flex-col overflow-hidden rounded-card-lg bg-brand-deep text-white sm:h-[calc(100svh-1.5rem)]"
+      className="relative isolate flex h-[calc(100svh-1rem)] min-h-144 flex-col overflow-hidden rounded-card-lg bg-brand-deep text-white sm:h-[calc(100svh-1.5rem)]"
     >
       <div className="absolute inset-0 -z-10">
         <motion.div
@@ -45,7 +45,7 @@ export default function Hero() {
             className="object-cover"
           />
         </motion.div>
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-deep/[0.65] via-brand-deep/[0.35] to-brand-deep/[0.75]" />
+        <div className="absolute inset-0 bg-linear-to-b from-brand-deep/65 via-brand-deep/35 to-brand-deep/75" />
       </div>
 
       <header className="relative z-10 flex items-center px-6 pt-6 text-xs text-white sm:px-10 sm:pt-8">
@@ -84,7 +84,7 @@ export default function Hero() {
             aria-expanded={menuOpen}
             className="grid size-10 place-items-center rounded-pill bg-white/15 backdrop-blur transition-colors duration-200 hover:bg-white/25"
           >
-            <span className="flex flex-col items-center gap-[5px]">
+            <span className="flex flex-col items-center gap-1.25">
               <span className="block h-px w-4 bg-white" />
               <span className="block h-px w-4 bg-white" />
             </span>

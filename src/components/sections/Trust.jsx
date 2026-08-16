@@ -128,7 +128,7 @@ export default function Trust() {
           from={{ opacity: 0, y: 24 }}
           delayIn={0.12}
           config={{ tension: 200, friction: 26 }}
-          className="w-full max-w-[28rem]"
+          className="w-full max-w-md"
         >
           <article className="flex flex-col gap-4 rounded-card bg-surface p-5 sm:gap-5 sm:p-6">
             <span className="w-fit rounded-xl bg-white px-4 py-2 text-xl font-medium">
@@ -152,7 +152,7 @@ export default function Trust() {
           config={{ tension: 170, friction: 26 }}
           className="w-52 md:w-64"
         >
-          <figure className="relative aspect-[3/4] rotate-6 overflow-hidden rounded-card bg-brand">
+          <figure className="relative aspect-3/4 rotate-6 overflow-hidden rounded-card bg-brand">
             <div className="absolute inset-0">
               <AnimatePresence initial={false}>
                 <motion.div

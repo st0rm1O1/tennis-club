@@ -64,7 +64,7 @@ export default function ContactModal() {
   const firstName = name.trim().split(/\s+/)[0];
 
   return createPortal(
-    <motion.div className="fixed inset-0 z-[90] flex items-end justify-center p-3 sm:items-center sm:p-6">
+    <motion.div className="fixed inset-0 z-90 flex items-end justify-center p-3 sm:items-center sm:p-6">
       <motion.div
         className="absolute inset-0 bg-brand-deep/40 backdrop-blur"
         initial={{ opacity: 0 }}
@@ -77,7 +77,7 @@ export default function ContactModal() {
         role="dialog"
         aria-modal="true"
         aria-label="Book a visit"
-        className="relative max-h-[92svh] w-full overflow-y-auto rounded-card-lg bg-surface-card p-6 text-ink shadow-[0_2rem_4rem_rgba(15,47,99,0.35)] sm:max-w-[32rem] sm:p-8"
+        className="relative max-h-[92svh] w-full overflow-y-auto rounded-card-lg bg-surface-card p-6 text-ink shadow-[0_2rem_4rem_rgba(15,47,99,0.35)] sm:max-w-lg sm:p-8"
         initial={{ opacity: 0, y: 28, scale: 0.96 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 28, scale: 0.96 }}
@@ -117,7 +117,7 @@ export default function ContactModal() {
               <CheckIcon className="size-5" />
             </div>
             <div className="mt-4 text-lg font-medium">Request received</div>
-            <p className="mx-auto mt-2 max-w-[22rem] text-sm leading-relaxed text-ink-soft">
+            <p className="mx-auto mt-2 max-w-88 text-sm leading-relaxed text-ink-soft">
               Thanks, {firstName || "there"} — our team will be in touch to lock
               in your visit.
             </p>

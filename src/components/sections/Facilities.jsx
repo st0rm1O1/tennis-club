@@ -56,7 +56,7 @@ export default function Facilities() {
                 <HoverSpring
                   to={{ scale: 1.03 }}
                   config={{ tension: 300, friction: 22 }}
-                  className="relative aspect-[3/4] overflow-hidden rounded-card bg-surface"
+                  className="relative aspect-3/4 overflow-hidden rounded-card bg-surface"
                 >
                   <Image
                     src={tile.img}

@@ -51,7 +51,7 @@ export default function MenuOverlay() {
   };
 
   return createPortal(
-    <motion.div className="fixed inset-0 z-[70] flex flex-col p-2 sm:p-3">
+    <motion.div className="fixed inset-0 z-70 flex flex-col p-2 sm:p-3">
       <motion.div
         className="absolute inset-0 bg-brand-deep"
         initial={{ opacity: 0 }}

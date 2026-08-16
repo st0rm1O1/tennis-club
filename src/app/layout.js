@@ -1,5 +1,5 @@
 import { Onest } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 
 const onest = Onest({
   variable: "--font-onest",

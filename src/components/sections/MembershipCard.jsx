@@ -14,7 +14,7 @@ export default function MembershipCard() {
       active={ready}
       delayIn={0.78}
       config={INVIEW}
-      className="w-full max-w-[20rem] sm:max-w-[15rem]"
+      className="w-full max-w-[20rem] sm:max-w-60"
     >
       <article className="flex items-stretch gap-3 rounded-card border border-white/15 bg-white/10 p-3 shadow-[0_1rem_2rem_rgba(15,47,99,0.2)] backdrop-blur">
         <div className="flex w-full flex-col justify-between gap-2">
@@ -32,7 +32,7 @@ export default function MembershipCard() {
             Members on court
           </span>
         </div>
-        <div className="relative aspect-[3/4] w-16 shrink-0 overflow-hidden rounded-xl">
+        <div className="relative aspect-3/4 w-16 shrink-0 overflow-hidden rounded-xl">
           <Image
             src={IMAGES.one}
             alt="Player waiting to return on a clay court"
