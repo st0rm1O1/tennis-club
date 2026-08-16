@@ -1,5 +1,3 @@
-import { TennisMark } from "./icons";
-
 export default function Eyebrow({ children, tone = "dark", className = "" }) {
   const isLight = tone === "light";
   return (
@@ -15,5 +13,3 @@ export default function Eyebrow({ children, tone = "dark", className = "" }) {
     </div>
   );
 }
-
-export { TennisMark };

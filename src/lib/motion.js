@@ -10,5 +10,3 @@ export const spring = ({ tension = 170, friction = 26 } = {}) => ({
 });
 
 export const VIEWPORT_ONCE = { once: true, amount: 0.12 };
-
-export const clamp01 = (v) => Math.max(0, Math.min(1, v));

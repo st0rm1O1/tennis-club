@@ -66,7 +66,7 @@ export default function Loader() {
     <motion.div
       role="status"
       aria-label="Loading"
-      className="fixed inset-0 z-[200] flex flex-col items-center justify-center gap-8 bg-brand-deep text-white"
+      className="fixed inset-0 z-200 flex flex-col items-center justify-center gap-8 bg-brand-deep text-white"
       initial={false}
       animate={exiting ? { y: "-105%" } : { y: "0%" }}
       transition={{
