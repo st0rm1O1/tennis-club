@@ -1,10 +1,12 @@
+const BASE_PATH = "/tennis-club";
+
 export const IMAGES = {
-  hero: "/images/hero/hero-court.webp",
-  one: "/images/1.webp",
-  two: "/images/2.webp",
-  three: "/images/3.webp",
-  four: "/images/4.webp",
-  five: "/images/5.webp",
+  hero: `${BASE_PATH}/images/hero/hero-court.webp`,
+  one: `${BASE_PATH}/images/1.webp`,
+  two: `${BASE_PATH}/images/2.webp`,
+  three: `${BASE_PATH}/images/3.webp`,
+  four: `${BASE_PATH}/images/4.webp`,
+  five: `${BASE_PATH}/images/5.webp`,
 };
 
 export const AVATAR_DOTS = ["#5790e6", "#c2e029", "#0b6e97", "#ffffff"];
