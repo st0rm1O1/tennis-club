@@ -1,15 +1,10 @@
-export const ASSET_BASE =
-  "https://api.getlayers.ai/storage/v1/object/public/public/assets/baseline-88535e4000";
-
-export const asset = (path) => `${ASSET_BASE}${path}`;
-
 export const IMAGES = {
-  hero: asset("/hero/hero-court.webp"),
-  one: asset("/1.webp"),
-  two: asset("/2.webp"),
-  three: asset("/3.webp"),
-  four: asset("/4.webp"),
-  five: asset("/5.webp"),
+  hero: "/images/hero/hero-court.webp",
+  one: "/images/1.webp",
+  two: "/images/2.webp",
+  three: "/images/3.webp",
+  four: "/images/4.webp",
+  five: "/images/5.webp",
 };
 
 export const AVATAR_DOTS = ["#5790e6", "#c2e029", "#0b6e97", "#ffffff"];
